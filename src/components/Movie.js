@@ -1,16 +1,21 @@
 import React from 'react';
-import './Movie.css';
 
 class Movie extends React.Component {
     render() {
+        const {title, year,director,summary,posters} = this.props;
         return(
-            <div className="movie-item">
-                <h2>{this.props.title}</h2>
-                <time>{this.props.date}</time>
-                <p>{this.props.director}</p>
-                <p>
-                    {this.props.summary}
-                </p>
+            <div className="">
+                <div className="">
+                    <h2>{title}</h2>
+                    <time>{year}</time>
+                    <p>{director}</p>
+                    <p>
+                        {summary}
+                    </p>
+                </div>
+                <div className="">
+                    {posters}
+                </div>
             </div>
         )
     }
