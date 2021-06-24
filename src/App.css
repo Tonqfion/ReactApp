@@ -1,5 +1,18 @@
+body {
+  background-color:#282c34;
+  color:lightgrey;
+}
+
 .App {
   text-align: center;
+}
+
+.App main {
+  margin-left:2rem;
+  margin-right:2rem;
+  display:grid;
+  grid-template-columns: repeat(3,1fr);
+  gap:1rem;
 }
 
 .App-logo {

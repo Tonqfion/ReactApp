@@ -11,6 +11,11 @@ class App extends React.Component {
                 <main>
                     <Movie title="podium" date="12/06/2021" director="Jean-Louis Real" summary="lorem lorem"/>
                     <Movie title="sql" date="13/05/1999" director="Pouet le Chat" summary="lorem lorem"/>
+                    <Movie title="sql" date="13/05/1999" director="Pouet le Chat" summary="lorem lorem"/>
+                    <Movie title="sql" date="13/05/1999" director="Pouet le Chat" summary="lorem lorem"/>
+                    <Movie title="sql" date="13/05/1999" director="Pouet le Chat" summary="lorem lorem"/>
+                    <Movie title="sql" date="13/05/1999" director="Pouet le Chat" summary="lorem lorem"/>
+                    <Movie title="sql" date="13/05/1999" director="Pouet le Chat" summary="lorem lorem"/>
                 </main>
             </div>
         );
