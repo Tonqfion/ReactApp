@@ -3,8 +3,29 @@ import PosterLink from "./PosterLink";
 import Casting from "./Casting";
 
 class Movie extends React.Component {
+
+    constructor(props) {
+        super(props);
+        this.state = {
+            "isFullSummary" : false,
+        }
+    }
+
+
+    showMoreClick = () => {
+        console.log(this.props.summary);
+        this.setState(
+            {
+                "isFullSummary" : !this.state.isFullSummary
+            }
+        );
+    }
+
     render() {
-        const {title, year,director,summary,posterURL, Distribution} = this.props;
+        console.log('Je suis prêt !')
+        const {title, year,director, posterURL, summary, Distribution} = this.props;
+        const {isFullSummary} = this.state;
+
         return(
             <div className="bg-green-500 flex flex-col border border-2 border-grey-300 p-4 rounded-xl shadow-2xl">
                 <div className="flex-grow mb-4">
@@ -18,13 +39,23 @@ class Movie extends React.Component {
                         {director}
                     </p>
                     <p className="text-left">
-                        {summary}
+                        {isFullSummary ? summary : summary.slice(0,20)}
                     </p>
+                    <button onClick={this.showMoreClick} className="px-4 py-2 m-4 bg-gray-600 text-white rounded-sm hover:bg-gray-100 hover:text-gray-500 transition ease-in-out duration-300">{isFullSummary ? "Show Less" : "Show More"}</button>
                     <Casting Cast = {Distribution}/>
                 </div>
                     <PosterLink posterURL = {posterURL} info={title} />
             </div>
         )
+    }
+
+
+    componentDidMount() {
+        console.log("J'arrive !");
+    }
+
+    componentDidUpdate(prevProps, prevState, snapshot) {
+        console.log("J'ai été mis à jour");
     }
 }
 
