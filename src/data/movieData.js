@@ -8,8 +8,17 @@ const data = [
             "https://www.themoviedb.org/t/p/original/bQ2mp3bv67fMlALYsbdi0X8GXi2.jpg",
             "https://www.themoviedb.org/t/p/original/3RTnmDGLVD8vOY7TjeIFRvChVJx.jpg",
             "https://www.themoviedb.org/t/p/original/kNpQWAHKrCjrjT0pXz15BWXW1eB.jpg"
+        ],
+        "Distribution" : [
+            {"name":"Casper Van Diem",
+                "role":"Johny Rico"},
+            {"name":"Denise Richards",
+                "role":"Carmen Ibanez"},
+            {"name":"Neil Patrick Harris",
+                "role":"Carl Jenkins"},
+            {"name":"Michael Ironside",
+                "role":"Jean Rasczak"},
         ]
-
     },
     {
         "title" : "Chat Noir Chat Blanc",
@@ -20,6 +29,16 @@ const data = [
             "https://www.themoviedb.org/t/p/original/gGtt1IQUAzEjOPS1xHoC9PDX2VT.jpg",
             "https://www.themoviedb.org/t/p/original/rlkAXPRxcYAdaH9yYBwuygFRENK.jpg",
             "https://www.themoviedb.org/t/p/original/bbeSx7usxfCl0ey8MklidtRnvxr.jpg"
+        ],
+        "Distribution" : [
+            {"name":"Casper Van Diem",
+                "role":"Johny Rico"},
+            {"name":"Denise Richards",
+                "role":"Carmen Ibanez"},
+            {"name":"Neil Patrick Harris",
+                "role":"Carl Jenkins"},
+            {"name":"Michael Ironside",
+                "role":"Jean Rasczak"},
         ]
     },
 
@@ -32,6 +51,16 @@ const data = [
             "https://www.themoviedb.org/t/p/original/h5Ys2Scx2DxHuZ8HrcJSitNbipV.jpg",
             "https://www.themoviedb.org/t/p/original/f6rRdIkuR2giJFrKGVNJ8UajHHn.jpg",
             "https://www.themoviedb.org/t/p/original/fVHaHYRJhh54BsOtxZtwVglEum5.jpg"
+        ],
+        "Distribution" : [
+            {"name":"Casper Van Diem",
+                "role":"Johny Rico"},
+            {"name":"Denise Richards",
+                "role":"Carmen Ibanez"},
+            {"name":"Neil Patrick Harris",
+                "role":"Carl Jenkins"},
+            {"name":"Michael Ironside",
+                "role":"Jean Rasczak"},
         ]
     },
 
@@ -44,6 +73,16 @@ const data = [
             "https://www.themoviedb.org/t/p/original/i95qDOJMd4L8sijH5gDyEbIK5bI.jpg",
             "https://www.themoviedb.org/t/p/original/xmD04pnMIO0FUe0FJc8rHjfi6vY.jpg",
             "https://www.themoviedb.org/t/p/original/sY3aDzks9GmeeljugVo1dJ0A8LM.jpg"
+        ],
+        "Distribution" : [
+            {"name":"Casper Van Diem",
+                "role":"Johny Rico"},
+            {"name":"Denise Richards",
+                "role":"Carmen Ibanez"},
+            {"name":"Neil Patrick Harris",
+                "role":"Carl Jenkins"},
+            {"name":"Michael Ironside",
+                "role":"Jean Rasczak"},
         ]
     },
 
@@ -56,6 +95,16 @@ const data = [
             "https://www.themoviedb.org/t/p/original/lvWL5ZRlYFh7M7fOvYswcRqyprI.jpg",
             "https://www.themoviedb.org/t/p/original/ivH8rOkZ12BHjmwiuENylJvQf1F.jpg",
             "https://www.themoviedb.org/t/p/original/tos87HtWsxt2exmAgnKFoC3b1rM.jpg"
+        ],
+        "Distribution" : [
+            {"name":"Casper Van Diem",
+                "role":"Johny Rico"},
+            {"name":"Denise Richards",
+                "role":"Carmen Ibanez"},
+            {"name":"Neil Patrick Harris",
+                "role":"Carl Jenkins"},
+            {"name":"Michael Ironside",
+                "role":"Jean Rasczak"},
         ]
     },
 
@@ -68,6 +117,16 @@ const data = [
             "https://www.themoviedb.org/t/p/original/d4J7GotCjvDJBAYayZBTc5nLbbP.jpg",
             "https://www.themoviedb.org/t/p/original/YFRZ7m5Nhc144chYmtP9o2zvXe.jpg",
             "https://www.themoviedb.org/t/p/original/lyQYZXWGEhKqSKJLHbJ7bBBKQ1c.jpg"
+        ],
+        "Distribution" : [
+            {"name":"Casper Van Diem",
+                "role":"Johny Rico"},
+            {"name":"Denise Richards",
+                "role":"Carmen Ibanez"},
+            {"name":"Neil Patrick Harris",
+                "role":"Carl Jenkins"},
+            {"name":"Michael Ironside",
+                "role":"Jean Rasczak"},
         ]
     },
 
@@ -80,6 +139,16 @@ const data = [
             "https://www.themoviedb.org/t/p/original/7IiTTgloJzvGI1TAYymCfbfl3vT.jpg",
             "https://www.themoviedb.org/t/p/original/x23Fqkt00uqV2TzfSiB60hrc3HY.jpg",
             "https://www.themoviedb.org/t/p/original/5jJdAeVNJqcKax5xVqSD1DiCZ06.jpg"
+        ],
+        "Distribution" : [
+            {"name":"Casper Van Diem",
+                "role":"Johny Rico"},
+            {"name":"Denise Richards",
+                "role":"Carmen Ibanez"},
+            {"name":"Neil Patrick Harris",
+                "role":"Carl Jenkins"},
+            {"name":"Michael Ironside",
+                "role":"Jean Rasczak"},
         ]
     },
 
@@ -91,6 +160,16 @@ const data = [
         "posterURL" : [
             "https://www.themoviedb.org/t/p/original/kjiSwSqtubWzbD7BaRUtgWoUXkU.jpg",
             "https://www.themoviedb.org/t/p/original/r0nejXOf6e4leWhnLuEQOmC5hrX.jpg"
+        ],
+        "Distribution" : [
+            {"name":"Casper Van Diem",
+                "role":"Johny Rico"},
+            {"name":"Denise Richards",
+                "role":"Carmen Ibanez"},
+            {"name":"Neil Patrick Harris",
+                "role":"Carl Jenkins"},
+            {"name":"Michael Ironside",
+                "role":"Jean Rasczak"},
         ]
     },
 
@@ -103,6 +182,16 @@ const data = [
             "https://www.themoviedb.org/t/p/original/4fMRt22gATxE7QO1G0bnRIfiIhh.jpg",
             "https://www.themoviedb.org/t/p/original/xiPX9jCpPXQIqIrbbuHfsL4qt9c.jpg",
             "https://www.themoviedb.org/t/p/original/9axx8fj7DGbjsRRg1lOfne4tXSA.jpg"
+        ],
+        "Distribution" : [
+            {"name":"Casper Van Diem",
+                "role":"Johny Rico"},
+            {"name":"Denise Richards",
+                "role":"Carmen Ibanez"},
+            {"name":"Neil Patrick Harris",
+                "role":"Carl Jenkins"},
+            {"name":"Michael Ironside",
+                "role":"Jean Rasczak"},
         ]
     },
 
@@ -115,6 +204,20 @@ const data = [
             "https://www.themoviedb.org/t/p/original/bPImGSvZtG2tvsJ9bVLrIECRDnB.jpg",
             "https://www.themoviedb.org/t/p/original/uXuH3g7Ul1HJ0xAXJ7pknmeYLsL.jpg",
             "https://www.themoviedb.org/t/p/original/lCg91huJvxGvCkkKlyAPCihKQzb.jpg"
+        ],
+        "Distribution" : [
+            {"name":"Casper Van Diem",
+                "role":"Johny Rico",
+            "portraitURL" : ""},
+            {"name":"Denise Richards",
+                "role":"Carmen Ibanez",
+                "portraitURL" : ""},
+            {"name":"Neil Patrick Harris",
+                "role":"Carl Jenkins",
+                "portraitURL" : ""},
+            {"name":"Michael Ironside",
+                "role":"Jean Rasczak",
+                "portraitURL" : ""},
         ]
     },
 ];

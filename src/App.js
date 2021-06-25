@@ -7,27 +7,13 @@ import movieData from "./data/movieData";
 class App extends React.Component {
     render() {
         return (
-            <div className="App">
+            <div className="App bg-gray-100 text-white">
                 <Header/>
-                <main>
-                    {movieData.map(movie =>
-                        <Movie
-                            title={movie.title}
-                            year={movie.year}
-                            director={movie.director}
-                            summary={movie.summary}
-                            posters={movie.posterURL.map(poster =>
-                                <a
-                                    href={poster}
-                                    target="_blank"
-                                    rel="noreferrer">
-                                    <img
-                                        src={poster}
-                                        alt=""/>
-                                </a>
-                            )}
-                        />
+                <main className="my-8">
+                    <div className="container mx-auto grid gap-16 grid-cols-2">
+                    {movieData.map((movie,i) => <Movie {...movie} key={i}/>
                     )}
+                    </div>
                 </main>
             </div>
         );
